@@ -1,0 +1,4 @@
+config smsforward 'main'
+    option bot_token ''
+    option chat_id ''
+    option thread_id ''
