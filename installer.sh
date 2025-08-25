@@ -9,7 +9,7 @@ CYAN='\033[1;36m'
 WHITE='\033[1;37m'
 NC='\033[0m'
 
-REPO_URL="https://raw.githubusercontent.com/ribhy21/forward-sms-modem-android-to-telegram/main/sms%20forward"
+REPO="https://raw.githubusercontent.com/edikurexe/adbsmsforward-openwrt/main/files"
 
 loading_bar() {
     echo
