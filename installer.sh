@@ -52,7 +52,7 @@ install_smsforward() {
     echo -e "${BLUE}=====================================${NC}"
     echo -e "   🚀 ${MAGENTA}Masukkan Konfigurasi Bot Telegram${NC}"
     echo -e "${BLUE}=====================================${NC}"
-    printf "${YELLOW}💬 Masukan Chat ID Telegram   : ${NC}"
+    printf "${YELLOW}💬 Masukan Chat ID Telegram (misal: @gruppublik, 1234567890, dan tambahkan -100 didepan untuk super group private)  : ${NC}"
     read -r CHAT_ID
 
     clear
