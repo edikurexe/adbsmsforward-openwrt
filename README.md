@@ -1,4 +1,4 @@
-# smsforward v2.3
+# smsforward v1.0
 
 Script untuk forward SMS Android (via ADB) ke Telegram Chat.
 
