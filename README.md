@@ -6,7 +6,7 @@ Script untuk forward SMS Android (via ADB) ke Telegram Chat.
 Copy script di bawah lalu paste ke terminal OpenWrt:
 
 ```bash
-bash -c "$(wget -qO - https://raw.githubusercontent.com/edikurexe/adbsmsforward-openwrt/refs/heads/main/install.sh)"
+bash -c "$(wget -qO - https://raw.githubusercontent.com/edikurexe/adbsmsforward-openwrt/refs/heads/main/installer.sh)"
 ```
 
 Script akan otomatis:
@@ -80,6 +80,15 @@ opkg install adb curl ca-bundle ca-certificates
 💬 Isi Pesan:
 Kode OTP Anda adalah 123456.
 ```
+
+---
+
+## ✅ Tested Device
+Telah diuji berjalan dengan baik di perangkat Android berikut (mode ADB):
+- Xiaomi Redmi 4A  
+- Xiaomi Redmi 4X  
+- Samsung Galaxy S8  
+- Samsung Galaxy S9  
 
 ---
 
