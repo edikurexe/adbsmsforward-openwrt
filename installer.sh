@@ -74,6 +74,7 @@ config smsforward 'main'
     option bot_token '$BOT_TOKEN'
     option chat_id '$CHAT_ID'
     option thread_id '$THREAD_ID'
+    option interval '10'
 EOF
     chmod 600 /etc/config/smsforward
 
