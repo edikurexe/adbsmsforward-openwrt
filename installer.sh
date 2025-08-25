@@ -70,7 +70,7 @@ install_smsforward() {
     chmod +x /usr/bin/forward-loop-sms.sh
 
     cat > /etc/config/smsforward <<EOF
-config smsforward 'main'
+config settings 'main'
     option bot_token '$BOT_TOKEN'
     option chat_id '$CHAT_ID'
     option thread_id '$THREAD_ID'
